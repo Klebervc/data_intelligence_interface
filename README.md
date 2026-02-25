@@ -119,9 +119,8 @@ pip install -r requirements.txt
 ### 4️. Instale as dependências do frontend e execute
 
 ```bash
-cd ..
+cd ../frontend
 npm install
-npm install tailwindcss @tailwindcss/postcss postcss
 npm run dev
 ```
 
@@ -140,7 +139,7 @@ Após, feche e abra o terminal novamente.
 Execute dentro de backend:
 
 ```bash
-python database.py
+python app/database.py
 ```
 
 Isso criará
